@@ -3,12 +3,65 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>English Learning Workspace</title>
+  <meta name="description" content="A first French lesson workspace for numbers, calendar words, useful phrases, pronunciation, and speaking practice.">
+  <title>French · First steps</title>
+  <style>
+    :root { --ink:#20324b; --paper:#fffdf8; --blue:#176b87; --aqua:#d9f0ee; --coral:#ec765f; --yellow:#ffc94a; --line:#d7dfdf; --soft:#f2f7f6; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+    .hero { background:linear-gradient(120deg,#176b87 0%,#276f91 62%,#ec765f 62%); color:white; padding:clamp(2.5rem,8vw,5.5rem) 1.2rem 4rem; }
+    .wrap { width:min(1050px,100%); margin:auto; }
+    .eyebrow { margin:0 0 .7rem; font-size:.78rem; font-weight:800; letter-spacing:.13em; text-transform:uppercase; color:#d8f4f0; }
+    h1 { margin:0; max-width:700px; font-size:clamp(2.5rem,7vw,5rem); line-height:1; letter-spacing:-.055em; }
+    .lead { max-width:610px; margin:1.2rem 0 0; font-size:1.15rem; }
+    nav { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1.8rem; }
+    nav a { border-radius:999px; padding:.45rem .85rem; background:rgba(255,255,255,.18); color:white; text-decoration:none; font-weight:700; font-size:.9rem; }
+    main { margin-top:-1.7rem; padding:0 1.2rem 3rem; }
+    .notice { background:#fff4cf; border-left:6px solid var(--yellow); padding:1rem 1.15rem; border-radius:.5rem; box-shadow:0 8px 20px #20324b13; }
+    section { margin-top:3.4rem; scroll-margin-top:1rem; }
+    h2 { font-size:clamp(1.65rem,4vw,2.4rem); line-height:1.1; letter-spacing:-.04em; margin:0 0 .5rem; }
+    h3 { margin:.1rem 0 .55rem; font-size:1.1rem; }
+    .sub { margin:0 0 1.25rem; color:#53657b; max-width:720px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(215px,1fr)); gap:1rem; }
+    .card { padding:1.15rem; background:white; border:1px solid var(--line); border-radius:1rem; box-shadow:0 6px 16px #20324b0c; }
+    .card.accent { background:var(--aqua); border-color:#abd8d3; }
+    .word { display:block; color:var(--blue); font-size:1.2rem; font-weight:850; }
+    .say { color:#6b4a42; font-size:.92rem; }
+    .numbers { display:grid; grid-template-columns:repeat(auto-fit,minmax(105px,1fr)); gap:.55rem; }
+    .number { padding:.72rem; background:var(--soft); border-radius:.6rem; text-align:center; }
+    .number b { display:block; font-size:1.25rem; color:var(--blue); }
+    .table { width:100%; border-collapse:collapse; background:white; border:1px solid var(--line); border-radius:1rem; overflow:hidden; }
+    .table th,.table td { padding:.7rem .8rem; border-bottom:1px solid var(--line); text-align:left; }
+    .table tr:last-child td { border:0; }
+    .table th { background:var(--soft); color:#526675; font-size:.8rem; text-transform:uppercase; letter-spacing:.06em; }
+    .practice { display:grid; grid-template-columns:1.15fr .85fr; gap:1rem; }
+    .dialogue { background:var(--ink); color:white; border-radius:1rem; padding:1.25rem; }
+    .dialogue p { margin:.6rem 0; }
+    .dialogue strong { color:#ffda70; }
+    .task { background:white; border:1px solid var(--line); border-radius:1rem; padding:1.25rem; }
+    label { display:block; margin-top:.8rem; font-weight:700; }
+    input { width:100%; margin-top:.3rem; padding:.7rem; border:1px solid #b6c5c7; border-radius:.45rem; font:inherit; }
+    button { margin-top:1rem; padding:.7rem 1rem; border:0; border-radius:.5rem; background:var(--coral); color:white; font:inherit; font-weight:800; cursor:pointer; }
+    #result { min-height:1.5em; margin:.75rem 0 0; font-weight:800; }
+    .checklist { list-style:none; padding:0; margin:0; }
+    .checklist li { padding:.55rem 0 .55rem 2rem; position:relative; border-bottom:1px solid var(--line); }
+    .checklist li::before { content:"□"; position:absolute; left:0; color:var(--coral); font-size:1.35rem; line-height:1.1; }
+    footer { margin-top:3rem; padding:2rem 1.2rem; background:var(--ink); color:#d8e5ea; }
+    footer p { margin:.2rem auto; width:min(1050px,100%); }
+    @media (max-width:650px) { .hero { background:linear-gradient(150deg,#176b87 0%,#276f91 75%,#ec765f 75%); } .practice { grid-template-columns:1fr; } }
+  </style>
 </head>
 <body>
-  <main>
-    <h1>English Learning Workspace</h1>
-    <p>This workspace is being prepared. Lesson content will be added after the learning plan is agreed.</p>
+  <header class="hero"><div class="wrap"><p class="eyebrow">French · first lesson</p><h1>Bonjour, French!</h1><p class="lead">A focused space to practise numbers, calendar words, useful phrases, clear pronunciation, and introducing yourself aloud.</p><nav aria-label="Lesson sections"><a href="#numbers">Numbers</a><a href="#calendar">Calendar</a><a href="#words">Words</a><a href="#dialogue">Dialogue</a><a href="#speak">Speak</a></nav></div></header>
+  <main class="wrap">
+    <aside class="notice"><strong>For next time:</strong> bring a separate French notebook. If there is time, begin the first unit of the assigned activity. The next lesson is planned for Sunday at 13:00.</aside>
+    <section id="numbers"><p class="eyebrow" style="color:#176b87">01 · Numbers</p><h2>Count with confidence</h2><p class="sub">Say each word slowly, then once more at a natural pace. Notice how many final letters are quiet.</p><div class="numbers"><div class="number"><b>0</b>zéro</div><div class="number"><b>1</b>un</div><div class="number"><b>2</b>deux</div><div class="number"><b>3</b>trois</div><div class="number"><b>4</b>quatre</div><div class="number"><b>5</b>cinq</div><div class="number"><b>6</b>six</div><div class="number"><b>7</b>sept</div><div class="number"><b>8</b>huit</div><div class="number"><b>9</b>neuf</div><div class="number"><b>10</b>dix</div></div></section>
+    <section id="calendar"><p class="eyebrow" style="color:#176b87">02 · Days & months</p><h2>Find your place in the week</h2><div class="grid"><div class="card accent"><h3>Days</h3><span class="word">lundi · mardi · mercredi</span><span class="word">jeudi · vendredi · samedi · dimanche</span><p class="say">The French week begins with lundi (Monday).</p></div><div class="card"><h3>Months</h3><span class="word">janvier · février · mars · avril</span><span class="word">mai · juin · juillet · août</span><span class="word">septembre · octobre · novembre · décembre</span></div></div></section>
+    <section id="words"><p class="eyebrow" style="color:#176b87">03 · Useful words</p><h2>Little phrases, real conversations</h2><table class="table"><thead><tr><th>French</th><th>Meaning</th><th>Pronunciation cue</th></tr></thead><tbody><tr><td><strong>Bonjour</strong></td><td>Hello / good day</td><td>bon-zhoor</td></tr><tr><td><strong>Au revoir</strong></td><td>Goodbye</td><td>oh ruh-vwahr</td></tr><tr><td><strong>Merci</strong></td><td>Thank you</td><td>mehr-see</td></tr><tr><td><strong>S'il vous plaît</strong></td><td>Please</td><td>seel voo pleh</td></tr><tr><td><strong>Comment ça va ?</strong></td><td>How are you?</td><td>koh-mahn sah vah</td></tr><tr><td><strong>Ça va bien.</strong></td><td>I am well.</td><td>sah vah byan</td></tr><tr><td><strong>Je m'appelle…</strong></td><td>My name is…</td><td>zhuh mah-pell</td></tr><tr><td><strong>Enchanté(e).</strong></td><td>Nice to meet you.</td><td>ahn-shahn-tay</td></tr></tbody></table></section>
+    <section id="dialogue"><p class="eyebrow" style="color:#176b87">04 · Listen, read, understand</p><h2>A tiny dialogue</h2><p class="sub">First listen as someone reads this dialogue aloud. Then read both parts aloud yourself.</p><div class="practice"><div class="dialogue" aria-label="French dialogue"><p><strong>Camille:</strong> Bonjour ! Comment ça va ?</p><p><strong>Alex:</strong> Bonjour ! Ça va bien, merci. Et toi ?</p><p><strong>Camille:</strong> Ça va bien. Je m'appelle Camille.</p><p><strong>Alex:</strong> Je m'appelle Alex. Enchanté !</p><p><strong>Camille:</strong> Enchantée ! Au revoir !</p></div><div class="task"><h3>Check understanding</h3><p>What does Alex say after “Comment ça va ?”</p><label for="answer">Your answer</label><input id="answer" autocomplete="off" placeholder="Write the French phrase"><button type="button" id="check">Check</button><p id="result" role="status" aria-live="polite"></p></div></div></section>
+    <section id="speak"><p class="eyebrow" style="color:#176b87">05 · Oral practice</p><h2>Introduce yourself</h2><div class="grid"><div class="card accent"><h3>Say it aloud</h3><p>Bonjour. Je m'appelle <em>[your name]</em>. Ça va bien, merci. Enchanté(e). Au revoir !</p><p class="say">Aim for clear sounds, not speed. Pause after each short sentence.</p></div><div class="card"><h3>Practice checklist</h3><ul class="checklist"><li>Count from zéro to dix.</li><li>Say today’s day and month.</li><li>Read the dialogue with two voices.</li><li>Give your introduction without looking.</li></ul></div></div></section>
   </main>
+  <footer><p>French first steps · practise a little, say it aloud, come back tomorrow.</p></footer>
+  <script>const button=document.querySelector('#check');const answer=document.querySelector('#answer');const result=document.querySelector('#result');button.addEventListener('click',()=>{const normal=answer.value.toLowerCase().replace(/[.!?]/g,'').replace(/\s+/g,' ').trim();result.textContent=normal.includes('ça va bien')||normal.includes('ca va bien')?'Oui ! Alex says: « Ça va bien, merci. »':'Try again. Look for Alex’s answer after the greeting.';});</script>
 </body>
 </html>
