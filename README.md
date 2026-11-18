@@ -1,3 +1,3 @@
-# French first steps
+# French practice platform
 
-A static first-lesson French learning page covering numbers, days and months, key phrases, pronunciation cues, dialogue comprehension, introductions, and oral practice.
+A privacy-safe static French practice page. It includes an earlier first-steps recap plus practice for reading comprehension, prepositions of place, dates and numbers, pronunciation, and browser-local listening activities. It collects no student data and uses no external media.
