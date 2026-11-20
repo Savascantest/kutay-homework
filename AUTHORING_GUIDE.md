@@ -11,7 +11,7 @@ Apply this standard to every new learner-facing exercise and assessment in this 
 - Make each homework a separately selectable archive item with its own overview, lesson notes, and section tabs.
 - For a standard homework package, prepare 10 grammar questions, 10 vocabulary questions, one short reading with 3 true/false and 2 multiple-choice checks, 3 listening exercises or questions from a licensed external learning source, and a 10-question final multiple-choice quiz.
 - Place grammar and vocabulary questions in a single vertical sequence. For each, use 5 multiple-choice or gap-fill questions and 5 put-the-words-in-order questions.
-- Start every grammar tab with an English explanation box: explain the practical use, an English comparison where useful, and highlighted French examples.
-- Start every vocabulary tab with clickable flip cards. The French side must show the word, French definition, and French example; the English side must show the translation, English definition, and English translation of that example.
+- Start every grammar tab with an English explanation box: explain the practical use, an English comparison where useful, and highlighted French examples. Include several small guide cards that cover the relevant prepositions, verb patterns, noun/article patterns, colour-coded sentence parts, and reusable message examples.
+- Start every vocabulary tab with a detailed English guide and clickable flip cards. The guide must explain the colour code, gender/article information where relevant, common word partners, verb patterns, and sentence frames. The French side of each card must show the word, French definition, and French example; the English side must show the translation, English definition, and English translation of that example.
 - Keep all student instructions in English, while French examples and prompts remain in meaningful French.
 - Prefer crisp CSS/vector styling over low-resolution raster background images.
